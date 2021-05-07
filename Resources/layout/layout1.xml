@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff9e9e9e">
+    <TextView
+        android:text="The Calculator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:id="@+id/MAINHEADING"
+        android:textStyle="normal|bold"
+        android:textSize="68px"
+        android:textColor="#ff4fc3f7"
+        android:textAlignment="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    <TextView
+        android:text="Number1"
+        android:layout_width="match_parent"
+        android:layout_height="29.0dp"
+        android:id="@+id/txtNum1"
+        android:textColor="#ff000000"
+        android:textSize="50px"
+        android:textAlignment="center"
+        android:background="#ffffffff"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="77.5dp"
+        android:id="@+id/editText1"
+        android:textColor="#ffbf360c"
+        android:outlineAmbientShadowColor="#ffb71c1c"
+        android:outlineSpotShadowColor="#ff880e4f"
+        android:shadowColor="#ffbf360c"
+        android:textColorHighlight="#fff57f17"
+        android:textColorHint="#ff006064"
+        android:textColorLink="#ff827717"
+        android:textSize="80px" />
+
+    <TextView
+        android:text="Number 2"
+        android:layout_width="383.5dp"
+        android:layout_height="31.5dp"
+        android:id="@+id/txtNum2"
+        android:textColor="#ff000000"
+        android:textSize="50px"
+        android:textAlignment="center"
+        android:background="#ffffffff"
+        android:layout_marginRight="0.0dp"
+        android:layout_marginBottom="0.0dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="78.5dp"
+        android:id="@+id/editText2"
+        android:textSize="80px" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:layout_width="match_parent"
+        android:layout_height="78.0dp"
+        android:id="@+id/linearLayout1"
+        android:layout_marginTop="0.0dp"
+        android:background="#ff9fa8da">
+        <Button
+            android:text="+"
+            android:layout_width="96.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnPlus"
+            android:textSize="80px" />
+        <Button
+            android:text="/"
+            android:layout_width="91.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/tnDivide"
+            android:textSize="80px" />
+        <Button
+            android:text="*"
+            android:layout_width="92.0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnmul"
+            android:textSize="80px" />
+        <Button
+            android:text="-"
+            android:layout_width="100.5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnminus"
+            android:textSize="80px" />
+    </LinearLayout>
+
+
+</LinearLayout>
